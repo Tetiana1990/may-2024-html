@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.active{
+    color: darkslategrey;
+}
+/*-----------------header----------------------------*/
+header {
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    width: 60%;
+}
+nav ul{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+header nav ul a{
+    text-decoration: none;
+    color: #a18f8f;
+    transition: 0.5s;
+    font-size: 18px;
+}
+header nav ul a:hover {
+    color: #423028;
+    transition: 1s;
+}
+  header div{
+      text-align: center;
+  }
+  header div img{
+      height: 40px;
+      width: 40px;
+      transition: 0.5s;
+
+  }
+
+
+  .maal{
+      font-family: "Ga Maamli", sans-serif;
+      font-weight: 400;
+      font-size: 30px;
+  }
+/*----------------section----------------------------------*/
+#photo{
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url("img.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.first-text{
+    margin-top: 10vh;
+}
+#photo p{
+    font-size: 20px;
+}
+#photo h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+}
+#photo button{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+#photo button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#img {
+    height: 80vh;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhxM68dqf1zhtFPKX5xVZKjxJvEIQJ04tuvg&s");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+#img h1{
+    font-size: 80px;
+    margin: 20px 50px
+}
+#img p{
+    font-size: 30px;
+    font-weight:700;
+}
+#img button{
+    width: 200px;
+    height: 40px;
+    margin: 20px 200px;
+    background-color: gold;
+    color: black;
+    font-weight: 800;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+}
+#img button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+/*---------------footer-----------------------------------*/
+footer{
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer nav{
+    width: 30%;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icons a{
+    margin: 0 10px;
+}
+.social-icons img{
+    height: 40px;
+    width: 40px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: scale(1.2);
+}
+
+
+
+
+
