@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.instagram{
+    height: 90vh;
+    width: 30vw;
+    border: 2px solid darkgray;
+     margin: 2vh 35vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+img{
+    height: 170px;
+    width: 300px;
+    margin-left: 80px;
+}
+ input[type="text"],
+ input[type="password"]{
+     height: 45px;
+     width: 350px;
+     margin: 10px 50px;
+     border-radius: 10px;
+     border:2px solid #e3e2e2;
+
+ }
+.registration{
+    height: 10vh;
+    width: 30vw;
+    border: 2px solid darkgray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.registration p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.registration a{
+    text-decoration: none;
+
+}
+input[type="submit"]{
+    height: 45px;
+    width: 350px;
+    margin: 10px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #86aad8;
+    color: white;
+}
+span{
+    margin: 25px 100px;
+}
+.facebook{
+    height: 20px;
+    width: 20px;
+margin-right: 15px;
+}
+.Exit{
+    font-size: 20px;
+    margin-right: 100px;
+    color: #4f78ac;
+}
+.password{
+    font-size: 20px;
+    margin: 20px 100px;
+}
+.password a{
+     text-decoration: none;
+    color: #517aaa;
+}
