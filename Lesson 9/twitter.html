@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color:deepskyblue;
+        } form{
+                      height: 350px;
+                      width: 500px;
+                      background-color: white;
+                      margin: 20vh 35vw;
+                      display: flex;
+                      flex-direction: column;
+                  }
+          h2{
+              margin: 10px;
+              font-size: 30px;
+              font-weight: 700;
+          }
+          span{
+              color: darkgray;
+              font-weight: 500;
+          }
+          hr{
+              margin-bottom: 10px;
+          }
+          input[type="text"]{
+              height: 40px;
+              width: 470px;
+              margin: 10px;
+              font-weight: 700;
+              font-size: 20px;
+              padding-left: 10px;
+              border: 2px solid darkgrey;
+          }
+          input[ type="email"]{
+              height: 40px;
+              width: 470px;
+              margin: 10px;
+              font-weight: 700;
+              font-size: 20px;
+              padding-left: 10px;
+              border: 2px solid darkgrey;
+          }
+          input[ type="password"]{
+              height: 40px;
+              width: 470px;
+              margin: 10px;
+              font-weight: 700;
+              font-size: 20px;
+              padding-left: 10px;
+              border: 2px solid darkgrey;
+          }
+          input[type="button"]{
+              height: 40px;
+              width: 235px;
+              margin: 10px 240px;
+              font-size: 20px;
+              font-weight: 700;
+              border: 2px solid orange;
+              border-radius: 10px;
+          }
+    </style>
+</head>
+<body>
+<form>
+    <h2>New to Twitter? <span>Sign up</span></h2>
+    <hr>
+    <input type="text" name="full name" placeholder="Full name" required>
+    <input type="email" name="email" placeholder="Email">
+    <input type="password" name="password" placeholder="Password">
+    <input type="button" value="Sing up for Twitter">
+
+</form>
+
+</body>
+</html>
