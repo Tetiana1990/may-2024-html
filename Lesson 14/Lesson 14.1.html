@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 1440px;
+            height: 2069px;
+            background: #F7F6F4;
+        }
+        header{
+            height: 20vh;
+            width: 100vw;
+            background-color: white;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 186px;
+
+
+        }
+        header div img{
+            width: 178px;
+            height: 22px;
+            background:  #f1eeee 50% / cover no-repeat;
+            display: flex;
+            justify-content:start;
+            align-items: center;
+            margin-left: 165px;
+        }
+        nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*padding-bottom: 35px;*/
+        }
+        nav>ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            list-style-type: none;
+        }
+        nav>ul>li{
+            position: relative;
+        }
+        nav>ul>li>a{
+            text-decoration: none;
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        .dropdown{
+            position: absolute;
+            list-style-type: none;
+            width: 120px;
+            height: 100px;
+            background-color: white;
+            display: none;
+        }
+        .dropdown a{
+            text-decoration: none;
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+        }
+        .dropdown a:hover{
+            background-color: lightgray;
+        }
+        nav>ul>li:hover .dropdown{
+            display: block;
+        }
+    /*    ------------------body----------------------------*/
+        .kambas{
+            width: 1110px;
+            height: 505px;
+            background: #F1DDC9;
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin: 90px 165px 0 165px;
+        }
+        .clock img{
+            width: 325px;
+            height: 467px;
+            padding: 14px 56px 24px 1px;
+        }
+        .way h1{
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 80px; /* 133.333% */
+            letter-spacing: 1px;
+            padding: 56px 317px 32px 0;
+        }
+        .way p{
+            width: 529px;
+            color: #333;
+            font-family: "Nunito", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            padding: 0 0 79px 0;
+        }
+        .way button{
+            width: 208px;
+            height: 62px;
+            background: #D84727;
+            border: none;
+            color: #FFF;
+            font-family: "Taviraj", serif;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin-bottom: 64px;
+        }
+        .deals{
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 40px; /* 111.111% */
+            letter-spacing: 1px;
+            margin: 79px 950px 89px 165px;
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+        }
+        .maple{
+            width: 255px;
+            height: 278px;
+            background: #FFF;
+            position: relative;
+        }
+        .maple img{
+            width: 221px;
+            height: 221px;
+            position: absolute;
+            top: -40px;
+            right: 20px;
+        }
+        .maple p{
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            margin: 213px 90px 33px 24px;
+        }
+        .ebony{
+            width: 255px;
+            height: 278px;
+            background: #FFF;
+            box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.04);
+            position:relative;
+        }
+        .ebony img{
+            width: 226px;
+            height: 226px;
+            position: absolute;
+            top: -40px;
+            right: 16px;
+        }
+        .ebony p{
+            width: 193px;
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            margin: 212px 38px 34px 24px;
+        }
+        .rakai{
+            width: 255px;
+            height: 278px;
+            background: #FFF;
+            position: relative;
+        }
+        .rakai img{
+            width: 226px;
+            height: 226px;
+            position: absolute;
+            top: -40px;
+            right: 15px;
+        }
+        .rakai p{
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            margin: 213px 88px 34px 24px;
+        }
+        .tool{
+            width: 255px;
+            height: 278px;
+            background: #FFF;
+            position: relative;
+        }
+        .tool img{
+            width: 226px;
+            height: 226px;
+            position: absolute;
+            top: -40px;
+            right: 15px;
+        }
+        .tool p{
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 32px; /* 133.333% */
+            margin: 213px 24px 33px 24px;
+        }
+        .news{
+            width: 1110px;
+            height: 505px;
+          display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .travel{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        .travel p:nth-child(1){
+            width: 220px;
+            height: 40px;
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 36px;
+            font-weight: 400;
+            margin: 132px 51px 181px 10px;
+        }
+        .travel p:nth-child(2){
+            width: 163px;
+            height: 40px;
+            color: #777;
+            font-family: "Taviraj", serif;
+            margin: 0 242px 16px 160px;
+            font-weight: 400;
+            line-height: 40px; /* 200% */
+            letter-spacing: 1px;
+        }
+        .travel p:nth-child(3){
+            width: 350px;
+            height:96px;
+            color: #333;
+            font-family: "Taviraj", serif;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 48px; /* 133.333% */
+            letter-spacing: 1px;
+            margin-left: 100px;
+        }
+        .hand {
+            width: 628px;
+            height: 626px;
+            padding: 101px 245px 151px 55px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .hand img{
+            position: absolute;
+        bottom: -100px;
+            left: 8px;
+
+        }
+
+   </style>
+</head>
+<body>
+   <header>
+       <div>
+           <img src="image/image.png" alt="img">
+       </div>
+           <nav>
+               <ul>
+                   <li><a href="#">Watches</a></li>
+                   <li><a href="#">Eyewear</a></li>
+                   <li><a href="#">Accessories</a>
+                       <ul class="dropdown">
+                           <li><a href="#">Fashion</a></li>
+                           <li><a href="#">Electronic</a></li>
+                           <li><a href="#">Home</a></li>
+                       </ul>
+                   </li>
+                   <li><a href="#">News</a></li>
+               </ul>
+           </nav>
+   </header>
+   <div class="kambas">
+       <div class="clock">
+           <img src="image/kambas.png" alt="png">
+       </div>
+       <div class="way">
+           <h1>WAY KAMBAS MINI EBONY</h1>
+           <p>MATOA Way Kambas - This wood is chosen to represent the Sumatran Rhino's skin which is designed with an overlap effect on its strap to represent Rhino's skin.</p>
+       <button>Add to cart</button>
+       </div>
+   </div>
+    <p class="deals">Monthly Deals</p>
+  <div class="image">
+      <div class="maple">
+          <img src="image/maple.png" alt="png">
+          <p>Singo Maple</p>
+      </div>
+      <div class="ebony">
+          <img src="image/ebony.png" alt="png">
+          <p>Singo Ebony</p>
+      </div>
+      <div class="rakai">
+          <img src="image/rakai.png" alt="png">
+          <p>Rakai Ebony</p>
+      </div>
+      ,<div class="tool">
+      <img src="image/way.png" alt="png">
+      <p>Way Kambas  </p>
+  </div>
+  </div>
+   <div class="news">
+
+       <div class="travel">
+           <p >Recent News</p>
+       <p>Where To Travel</p>
+       <p>Matoa Where To Travel? Yogyakarta</p>
+           </div>
+       <div class="hand">
+           <img src="image/hand.png" alt="png">
+       </div>
+   </div>
+
+
+</body>
+</html>
