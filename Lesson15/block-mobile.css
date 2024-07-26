@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+  header{
+      padding-top: 23px;
+  }
+    main {
+        height: 50vh;
+        width: 94vw;
+        padding-top: 95px;;
+    }
+
+    section {
+        height: 27vh;
+        width: 94vw;
+        padding-top: 45px;
+    }
+
+    .flex {
+        flex-direction: column;
+
+    }
+}

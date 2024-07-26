@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    background-color: #C0BDBD;
+    margin: 10px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+}
+main{
+    height: 80vh;
+    width: 70vw;
+    background-color: #C0BDBD;
+    padding-top: 260px;
+    font-size: 40px;
+}
+section{
+    height: 80vh;
+    width: 30vw;
+    background-color: #C0BDBD;
+    padding-top: 260px;
+    font-size: 40px;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+   margin: 10px;
+    text-align: center;
+}
