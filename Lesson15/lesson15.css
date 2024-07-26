@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    background-color: #3e3b3b;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 40px;
+    margin: 10px 10px 0 10px;
+
+}
+main{
+    height: 40vh;
+    width: 60vw;
+    background-color: #3F50E7;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 100px;
+    margin: 0 10px 10px 0;
+}
+section{
+    height: 38vh;
+    width: 19vw;
+    background-color: #8D8484;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 100px;
+
+}
+aside{
+    height: 80vh;
+    width: 40vw;
+    background-color: #C0BDBD;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 250px;
+}
+.flex{
+    display: flex;
+    margin: 10px;
+}
+.section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+
+}
+
+
