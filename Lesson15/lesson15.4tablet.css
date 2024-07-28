@@ -1,0 +1,29 @@
+@media screen and (min-width: 480px) and (max-width: 1200px){
+    .desktop{
+        width: 768px;
+        height: 652px;
+        padding: 24px;
+       flex-wrap: wrap;
+        flex-direction: column;
+        display: flex;
+        align-items: stretch;
+        /*justify-content:center;*/
+        /*align-items: center;*/
+        /*margin: 0;*/
+    }
+    div{
+width: 340px;
+        height: 258px;
+margin: 10px;
+
+    }
+    div image{
+        border-radius: 100px;
+    }
+    div p{
+        height: 44px;
+        width: 348px;
+    }
+
+
+}
