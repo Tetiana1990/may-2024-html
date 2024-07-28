@@ -1,0 +1,37 @@
+@media screen and (min-width: 480px) and (max-width: 1200px){
+  .desktop{
+      width: 768px;
+      height: 654px;
+      display: flex;
+      padding: 32px 24px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+  }
+    .desktop div{
+width: 218px;
+        height: 239px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex: 1 0 0;
+
+    }
+    .desktop img{
+        border-radius: 10px;
+        background:  lightgray 50% / cover no-repeat;
+        width: 218px;
+        height: 164px;
+    }
+    .desktop h3{
+        width: 218px;
+        height: 24px;
+    }
+    .desktop p{
+        width: 218px;
+        height: 16px;
+        margin-top: 15px;
+    }
+
+
+}
