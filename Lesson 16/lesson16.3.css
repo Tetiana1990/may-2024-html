@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    grid-template-areas:
+           'header header header header header'
+            'one main two article three'
+            'footer footer footer footer footer';
+}
+header{
+    grid-area:  header;
+    background: #D9D9D9;
+}
+.one{
+    grid-area: one;
+    background: #A4A4A4;
+}
+main{
+    grid-area: main;
+    background: #CAC7C7;
+}
+.two{
+    grid-area: two;
+    background: #A4A4A4;
+}
+article{
+    grid-area: article;
+    background: #CAC7C7;
+}
+.three{
+    grid-area: three;
+    background: #A4A4A4;
+}
+footer{
+    grid-area: footer;
+    background: #D9D9D9;
+}

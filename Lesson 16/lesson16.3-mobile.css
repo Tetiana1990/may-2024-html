@@ -1,0 +1,13 @@
+@media screen and (max-width: 600px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5,1fr);
+        grid-template-areas:
+           'header header'
+            'main one'
+           'two article'
+           'three three'
+            'footer footer ';
+    }
+
+}
